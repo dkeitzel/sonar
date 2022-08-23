@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+    xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>sonar.modules.modul-b</artifactId>
+
+    <parent>
+        <groupId>de.ba.sea.spu.demo.sonar</groupId>
+        <artifactId>sonar.modules</artifactId>
+        <version>develop</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>de.ba.sea.spu.demo.sonar</groupId>
+            <artifactId>sonar.modules.modul-a</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
